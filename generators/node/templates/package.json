@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --grep"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
+    "grunt": "*",
+    "load-grunt-tasks": "*",
+    "grunt-aws-lambda": "*",
+    "chai": "*",
+    "sinon": "*"
+  },
+  "dependencies": {
+    "mocha": "*",
+    "aws-sdk": "*",
+    "bluebird": "*",
+    "config": "*"
+  }
+}
