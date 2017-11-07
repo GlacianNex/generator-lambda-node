@@ -4,7 +4,17 @@ This package is meant to provide quick scaffolding for AWS Lambda function that 
 
 Below is the list of components that this template initilizes.
 
-## Package.json
+## Usage
+
+If you followed basic [Yeoman](http://yeoman.io/) installation you can use the template with the following command:
+
+```javascript
+yo aws-lambda-node
+```
+
+## Initialized Components
+
+### Package.json
 
 + Basic information
   + Name
@@ -24,25 +34,25 @@ Below is the list of components that this template initilizes.
   + [aws-sdk](https://www.npmjs.com/package/aws-sdk) - AWS SDK
   + [bluebird](https://www.npmjs.com/package/bluebird) - Promise framework
 
-## Git
+### Git
 
 + Adding .gitignore
 
-## Node
+### Node
 
 + Basic lambda entry point
 
-## Grunt
+### Grunt
 
 + Package, and deploy project code to lambda(s)
 + Populate lambda environment variables
 
-## ESLint
+### ESLint
 
 + Add AirBnB linting rule
 + QoL rule overrides that make sense in context of lambda development
 
-## Config
+### Config
 
 + Default configuration file
 + AWS Deployment Defaults

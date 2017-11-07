@@ -5,7 +5,7 @@
   "files": ["generators"],
   "keywords": ["yeoman-generator"],
   "dependencies": {
-    "yeoman-generator": "^1.0.0"
+    "yeoman-generator": "*"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
