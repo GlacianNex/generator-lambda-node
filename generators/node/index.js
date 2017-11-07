@@ -3,10 +3,6 @@ const Generator = require('yeoman-generator');
 module.exports = class extends Generator {
   constructor(args, options) {
     super(args, options);
-
-    console.log('sdfjhsdlkfjhsdlkjfh');
-    console.log(options);
-
     this.option('pkgName', {
       type: String,
       required: true,
