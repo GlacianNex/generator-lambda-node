@@ -6,10 +6,30 @@ Below is the list of components that this template initilizes.
 
 ## Usage
 
-If you followed basic [Yeoman](http://yeoman.io/) installation you can use the template with the following command:
+### Install [Yeoman](http://yeoman.io/)
 
 ```javascript
-yo aws-lambda-node
+npm install -g yo
+```
+
+### Install [generator-aws-lambda-node]()
+
+```javascript
+npm install -g generator-aws-lambda-node
+```
+
+### Run
+
+#### Create New Project Directory
+
+```javascript
+mkdir my-project && cd $_
+```
+
+#### Run generator-aws-lambda-node
+
+```javascript
+yo generator-aws-lambda-node
 ```
 
 ## Initialized Components
