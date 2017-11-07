@@ -12,7 +12,7 @@ Below is the list of components that this template initilizes.
 npm install -g yo
 ```
 
-### Install [generator-aws-lambda-node]()
+### Install [generator-aws-lambda-node](https://www.npmjs.com/package/generator-aws-lambda-node)
 
 ```javascript
 npm install -g generator-aws-lambda-node
