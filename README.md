@@ -15,7 +15,7 @@ npm install -g yo
 ### Install [generator-aws-lambda-node](https://www.npmjs.com/package/generator-aws-lambda-node)
 
 ```javascript
-npm install -g generator-aws-lambda-node
+npm install -g aws-lambda-node
 ```
 
 ### Run
