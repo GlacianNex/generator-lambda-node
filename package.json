@@ -1,6 +1,6 @@
 {
   "name": "generator-aws-lambda-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates basic scaffolding for a new AWS Lambda. Provides basic tools to deploy it.",
   "files": ["generators"],
   "keywords": ["yeoman-generator"],
