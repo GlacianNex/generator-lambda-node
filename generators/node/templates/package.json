@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive --grep"
+    "test": "mocha --recursive --grep 'integration|execution' --invert"
   },
   "devDependencies": {
     "eslint": "*",
@@ -15,10 +15,10 @@
     "load-grunt-tasks": "*",
     "grunt-aws-lambda": "*",
     "chai": "*",
-    "sinon": "*"
+    "sinon": "*",
+    "mocha": "*"
   },
   "dependencies": {
-    "mocha": "*",
     "aws-sdk": "*",
     "bluebird": "*",
     "config": "*"

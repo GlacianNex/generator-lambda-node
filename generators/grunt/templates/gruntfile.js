@@ -32,7 +32,7 @@ module.exports = function gruntMain(grunt) {
   grunt.registerTask('update-all-settings', function asyncTask(region) {
     const done = this.async();
     const map = config.get('deployDefaults.envVariables');
-    const lambdas = Object.keys(config.get('lambdaMapping'));
+    const lambdas = config.get('deployDefaults.lambdaNames');
     const tasks = lambdas.map(lambdaName => lambdaSetEnvVars(lambdaName, region, map));
     Promise.all(tasks)
       .then(() => done())
